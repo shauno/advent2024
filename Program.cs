@@ -1,5 +1,5 @@
 ﻿
-using advent.Days;
+using advent.Days.Day1;
 
 Console.WriteLine("Enter Day Number:");
 string? day = Console.ReadLine();
@@ -16,7 +16,7 @@ try
     switch (result)
     {
         case 1:
-            Console.WriteLine($"Answer: {Day1.Answer()}");
+            Console.WriteLine($"Answer: {Answer.Invoke()}");
             break;
         default:
             Console.WriteLine("Not implemented yet, be patient.");

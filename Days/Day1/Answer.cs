@@ -1,13 +1,13 @@
-namespace advent.Days;
+namespace advent.Days.Day1;
 
-public class Day1 {
-    public static int Answer() {
+public class Answer {
+    public static int Invoke() {
 
         String? line;
         List<int> one = [];
         List<int> two = [];
 
-        StreamReader sr = new("./Days/input.txt");
+        StreamReader sr = new("./Days/Day1/input.txt");
         while (!sr.EndOfStream)
         {
             line = sr.ReadLine();
