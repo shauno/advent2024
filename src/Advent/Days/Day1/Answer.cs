@@ -1,4 +1,4 @@
-namespace advent.Days.Day1;
+namespace Advent.Days.Day1;
 
 public class Answer {
     public static int Invoke() {

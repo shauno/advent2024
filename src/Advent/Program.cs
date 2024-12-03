@@ -1,5 +1,5 @@
 ﻿
-using advent.Days.Day1;
+using Advent.Days.Day1;
 
 Console.WriteLine("Enter Day Number:");
 string? day = Console.ReadLine();
